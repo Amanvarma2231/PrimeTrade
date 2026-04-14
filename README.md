@@ -96,5 +96,3 @@ NODE_ENV=development
 ---
 *Created with ❤️ for the Primetrade.ai Backend Developer Internship Challenge.*
 # PrimeTrade
-# PrimeTrade
-# PrimeTrade
