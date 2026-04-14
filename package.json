@@ -1,0 +1,19 @@
+{
+  "name": "backend-developer-intern",
+  "version": "1.0.0",
+  "description": "A high-performance, secure, and scalable portfolio management system built with **Node.js/Express** and **React (Vite)**. This project was developed as part of the Backend Developer Intern assignment for Primetrade.ai.",
+  "main": "index.js",
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
