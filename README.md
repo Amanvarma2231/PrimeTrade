@@ -80,6 +80,15 @@ NODE_ENV=development
 | `POST` | `/api/v1/portfolio` | Add new asset | ✅ |
 
 ---
+🚀 Running the Project (Development Setup)
+🔹 Backend Setup
+cd backend
+npm install
+npm run dev
+🔹 Frontend Setup
+cd frontend
+npm install
+npm run dev
 
 ## 🛡️ Security Implementation
 - **Helmet.js**: Protects against common web vulnerabilities by setting various HTTP headers.
